@@ -1,0 +1,62 @@
+.success-container {
+  position: relative;
+  height: 100%;
+  background: url('../assets/family_pc.png') no-repeat center center;
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+
+.success-overlay {
+  position: absolute;
+  background: linear-gradient( 180deg, #0e809fec 0%, #029CD2DB 80%) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+}
+
+.success-header {
+  height: 100%;
+  position: relative;
+  top: 0;
+  left:0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.success-content img {
+  max-width: 30%;
+  margin: 1.5rem auto;
+}
+
+.success-content h5 {
+  color: var(--gray-line);
+  width: 90%;
+  margin: 0 auto;
+  line-height: 1.3rem;
+  font-weight: 600;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
+
+.ebook-img img {
+  margin-top: 2rem;
+  max-width: 45%;
+}
+
+@media screen and (min-width: 768px) {
+  .success-content h1 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+  .success-content h5 {
+    font-size: 2rem;
+  }
+  .ebook-img img {
+    max-width: 30%;
+  }
+}
+
+

@@ -1,0 +1,142 @@
+@media(max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width: 720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+:root {
+  --white:#fff;
+  --white-opacity: rgba(255, 255, 255, 0.418);
+  --background: #fafafa;
+  --gray-line: #f2f3f5;
+  --text: #41414d;
+  --text-highlight: #b3b9ff;
+  --title: #2e384d;
+  --red: #e83f5b;
+  --red-light: #d83e86;
+  --orange: #F4A347;
+  --green: #4cd62b;
+  --blue: #5965e0;
+  --blue-dark: #175785;
+  --blue-twitter: #2aa9e0;
+  --blue-guz: #029bd2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--white);
+  color: var(--gray-line);
+  -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+  font: 400 1rem 'Poppins', sans-serif;
+}
+
+input, textarea {
+  cursor: text;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--gray-line);
+  padding: .5rem 0;
+  margin: .5rem 0;
+}
+
+button {
+  width: 100%;
+  color: var(--background);
+  background-color: var(--blue-guz);
+  cursor: pointer;
+  padding: 1rem .5rem 1rem .5rem;
+  border: none;
+  box-shadow: 2px 2px 5px #1757857a;
+  border-radius: 6px;
+  font: 500 1rem 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: .85rem;
+  margin: .5rem 0;
+}
+
+button:hover{
+  background-color: var(--blue-dark);
+}
+
+@media screen and (min-width: 768px) {
+  button {
+    font-size: 1.2rem;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+h1 {
+  max-width: 100%;
+  text-shadow: 1px 1px 3px #17578544;
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+  margin: 0 auto 1rem auto;
+}
+
+h2 {
+  color: var(--blue-dark);
+  margin: 0 auto;
+}
+
+p {
+  font-size: .8rem;
+}
+
+
+@media screen and (min-width: 768px) {
+  h1 {
+    line-height: 2.5rem;
+  }
+}
+
+
+.mark1 {
+  color: #fff;
+  background-color: var(--orange);
+  padding: .08rem .15rem .08rem .15rem;
+}
+
+.mark2 {
+  color: #fff;
+  background-color: var(--blue-guz);
+  padding: .08rem .15rem .08rem .15rem;
+}
+
+.mark3 {
+  color: var(--white);
+  background-color: var(--red-light);
+  padding: .08rem .15rem .08rem .15rem;
+  
+}
+
+.footer-godaddy {
+  background-color: #41414d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
