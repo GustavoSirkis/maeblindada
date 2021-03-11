@@ -31,7 +31,7 @@ export default class SingUpForm extends React.Component {
   
   handleSubmit(event) {    
     event.preventDefault();
-    fetch("https://maeblindada.us18.list-manage.com/subscribe/post?u=89b19e4d87d3f627d817dbf94&amp;id=16ce464f43")
+    fetch("https://mailchimp.us12.website.comXXXXXXXXXXXXXXX")
     .then(response => {
       return response.json()
     })
@@ -41,7 +41,7 @@ export default class SingUpForm extends React.Component {
     return (
       <main id="mc_embed_signup" className="form-container">
         <form
-          action="https://maeblindada.us18.list-manage.com/subscribe/post?u=89b19e4d87d3f627d817dbf94&amp;id=16ce464f43"
+          action="https://mailchimp.us12.website.comXXXXXXXXXXXXXXX"
           method="post" 
           id="mc-embedded-subscribe-form" 
           name="mc-embedded-subscribe-form" 
@@ -50,8 +50,8 @@ export default class SingUpForm extends React.Component {
           noValidate
         >
           
-          <input type="hidden" name="u" value="89b19e4d87d3f627d817dbf94"/>
-          <input type="hidden" name="id" value="16ce464f43"/>
+          <input type="hidden" name="u" value="XXXXXxxXXXXXXxxxXXXXxxX"/>
+          <input type="hidden" name="id" value="XXXXXXXXXxXXxx"/>
 
         <section id="mc_embed_signup_scroll">
           <h5>Cadastre seu e-mail para receber a prévia do meu E-Book gratuito.</h5>
