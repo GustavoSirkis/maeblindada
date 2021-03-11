@@ -12,19 +12,18 @@ import SuccessPage from './pages/success';
 import './styles/global.css';
 
 ReactDOM.render(
-  <React.StrictMode>
-      <BrowserRouter>
-        <Switch>  
-          <Route path="/" exact component={HomePage} />
-          <Route path="/ebook" component={Ebook} />         
-          <Route path="/ebook-preview" component={EbookPreview} />         
-          <Route path="/linkbio" component={LinkBio} />         
-          <Route path="/termsofuse" component={TermsOfUse} />         
-          <Route path="/success" component={SuccessPage} />         
-        </Switch>        
-      </BrowserRouter>
-  </React.StrictMode>,
-  document.getElementById('root')
+  <BrowserRouter>
+    <Switch>
+      <Route path="/" exact render={(props) => <HomePage {...props} />} />
+      <Route path="/ebook" render={(props) => <EbookPage {...props} />} />
+      <Route
+        path="/ebook-preview"
+        render={(props) => <EbookPreview {...props} />}
+      />
+      <Route path="/termsofuse" render={(props) => <TermsOfUse {...props} />} />
+      <Route path="/linkbio" render={(props) => <LinkBio {...props} />} />
+      <Route path="/success" render={(props) => <SuccessPage {...props} />} />
+    </Switch>
+  </BrowserRouter>,
+  document.getElementById('root'),
 );
-
-
