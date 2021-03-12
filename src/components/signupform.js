@@ -16,9 +16,10 @@ export default class SingUpForm extends React.Component {
   }
 
   handleChange(event) {
-    this.setState({ nameValue: event.target.value });
-    this.setState({ emailValue: event.target.value });
-    this.setState({ telefoneValue: event.target.value });
+    event.preventDefault();
+    this.setState({ name: event.target.value });
+    this.setState({ email: event.target.value });
+    this.setState({ phone: event.target.value });
   }
 
   handleSubmit(event) {
@@ -34,7 +35,7 @@ export default class SingUpForm extends React.Component {
     return (
       <main id="mc_embed_signup" className="form-container">
         <form
-          action="https://mailchimp.us12.website.comXXXXXXXXXXXXXXX"
+          action={process.env.MAILCHIMP_URL}
           method="post"
           id="mc-embedded-subscribe-form"
           name="mc-embedded-subscribe-form"
@@ -55,7 +56,7 @@ export default class SingUpForm extends React.Component {
                 name="NOME"
                 id="mce-NOME"
                 type="text"
-                value={this.state.nameValue}
+                value={this.state.name}
                 onChange={this.handleChange}
                 placeholder="Nome"
                 required
@@ -68,8 +69,8 @@ export default class SingUpForm extends React.Component {
                 name="EMAIL"
                 id="mce-EMAIL"
                 type="email"
-                value={this.state.value}
-                onChange={this.handleChange.emailValue}
+                value={this.state.email}
+                onChange={this.handleChange}
                 placeholder="Email"
                 required
               />
@@ -81,8 +82,8 @@ export default class SingUpForm extends React.Component {
                 name="TELEFONE"
                 id="mce-TELEFONE"
                 type="tel"
-                value={this.state.value}
-                onChange={this.handleChange.telefoneValue}
+                value={this.state.value.phone}
+                onChange={this.handleChange}
                 placeholder="Telefone"
                 required
               />
