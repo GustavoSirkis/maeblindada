@@ -20,7 +20,7 @@ export default function Footer() {
       </section>
       <div className="copyRight">
         &copy; {1900 + new Date().getFullYear()} , feito com amor
-        <i className="" /> por{'Hackers Sirkis'}
+        <i className="" /> por{' '}
         <a href="/" className="" target="_blank">
           Mãe Blindada
         </a>{' '}

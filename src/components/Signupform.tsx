@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import '../styles/signupform.css';
+import '../styles/scss/signupform.scss';
 
 export default class SingUpForm extends React.Component {
   // constructor(props: string) {
