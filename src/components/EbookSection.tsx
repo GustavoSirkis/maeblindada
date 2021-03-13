@@ -1,6 +1,6 @@
 import React from 'react';
 
-import SignUpForm from './Signupform';
+import SignUpForm from './SignupForm';
 
 import '../styles/scss/ebooksection.scss';
 import EbookPreview from '../assets/ebookmockup.png';

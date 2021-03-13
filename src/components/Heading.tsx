@@ -1,6 +1,5 @@
 import React from 'react';
 
-import '../styles/scss/heading.scss';
 import motherBaby from '../assets/maebaby.jpg';
 
 export default function Heading() {

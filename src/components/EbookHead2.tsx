@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Iframe from './Iframe';
-import SignUpForm from './Signupform';
+import SignUpForm from './SignupForm';
 
 import '../styles/scss/ebookhead2.scss';
 import whiteLogo from '../assets/logo_white.svg';
