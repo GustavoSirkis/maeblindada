@@ -1,26 +1,32 @@
 {
-  "name": "maeblindada",
+  "name": "armoredmother",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.8.3",
-    "axios": "^0.21.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "@types/reactstrap": "^8.7.2",
     "bootstrap": "^4.6.0",
-    "express": "^4.17.1",
+    "jquery": "^3.6.0",
+    "node-sass": "^5.0.0",
+    "popper.js": "^1.16.1",
     "react": "^17.0.1",
-    "react-bootstrap": "^1.5.1",
+    "react-bootstrap": "^1.5.2",
     "react-cookie-consent": "^6.2.3",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.0"
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "dev:server": "ts-node-dev --transpileOnly --ignore-watch node_modules src/server.ts",
     "start": "react-scripts start",
-    "build": "tsc",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -43,9 +49,7 @@
     ]
   },
   "devDependencies": {
-    "@types/express": "^4.17.11",
-    "eslint-import-resolver-typescript": "^2.4.0",
-    "ts-node-dev": "^1.1.6",
-    "typescript": "^4.2.3"
+    "@types/node-sass": "^4.11.1",
+    "@types/react-router-dom": "^5.1.7"
   }
 }

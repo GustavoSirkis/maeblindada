@@ -1,0 +1,12 @@
+// Bootstrap Functions
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Theme Variables
+// @import 'custom/variables.scss';
+
+// Bootstrap Core
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Custom 
+@import './scss/global.scss';
+@import './scss/theme.scss';

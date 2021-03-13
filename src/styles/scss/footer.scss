@@ -1,0 +1,26 @@
+.footer-container {
+  height: 100%;
+  background-color: var(--text);
+  color: var(--background);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer-container ul li {
+  font-size: .8rem;
+  margin: .2rem auto;
+}
+
+.footer-container p {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.copyRight {
+  width: 80%;
+  margin: 1rem auto;
+  color: var(--green);
+  font-size: .8rem;
+
+}
