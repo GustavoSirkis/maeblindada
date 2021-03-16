@@ -3,8 +3,7 @@ import React from 'react';
 import Iframe from './Iframe';
 import SignUpForm from './SignupForm';
 
-import '../styles/scss/ebookhead2.scss';
-import whiteLogo from '../assets/logo_white.svg';
+const whiteLogo = '/img/logo_white.svg';
 
 export default function EbookHead2() {
   return (

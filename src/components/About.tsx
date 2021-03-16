@@ -1,7 +1,6 @@
 import React from 'react';
 
-import '../styles/scss/about.scss';
-import larissaLucena from '../assets/larissa_perfil.jpg';
+const larissaLucena = '/img/larissa_perfil.jpg';
 
 export default function About() {
   return (

@@ -1,8 +1,6 @@
 import React from 'react';
 
-import '../styles/scss/termsofuse.scss';
-
-import blueLogo from '../assets/logo_azul.svg';
+const blueLogo = '/img/logo_azul.svg';
 
 export default function TermsOfUse() {
   return (

@@ -1,8 +1,6 @@
 import React from 'react';
 
-import '../styles/scss/calltoaction.scss';
-
-import cardsImg from '../assets/pgseguro.png';
+const cardsImg = '/img/pgseguro.png';
 
 export default function CallToAction() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import motherBaby from '../assets/maebaby.jpg';
+const motherBaby = '/img/maebaby.jpg';
 
 export default function Heading() {
   return (

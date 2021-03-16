@@ -2,8 +2,7 @@ import React from 'react';
 
 import SignUpForm from './SignupForm';
 
-import '../styles/scss/ebooksection.scss';
-import EbookPreview from '../assets/ebookmockup.png';
+const EbookPreview = '/img/ebookmockup.png';
 
 export default function EbookSection() {
   return (

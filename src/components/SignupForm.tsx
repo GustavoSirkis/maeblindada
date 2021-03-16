@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../styles/scss/signupform.scss';
-
 export default class SingUpForm extends React.Component<
   {},
   { email: string; name: string; phone: string }

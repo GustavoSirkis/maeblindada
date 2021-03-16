@@ -1,13 +1,11 @@
 import React from 'react';
 
-import WhatsApp from '../components/Whatsapp';
+import WhatsApp from '../components/WhatsApp';
 import CallToAction from '../components/CallToAction';
 import Footer from '../components/Footer';
 
-import '../styles/scss/success.scss';
-
-import logoBlue from '../assets/logo_white.svg';
-import EbookMockup from '../assets/ebookmockup.png';
+const logoBlue = '/img/logo_white.svg';
+const EbookMockup = '/img/ebookmockup.png';
 
 export default function SuccessPage() {
   return (

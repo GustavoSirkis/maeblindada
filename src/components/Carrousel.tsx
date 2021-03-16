@@ -2,12 +2,10 @@ import React from 'react';
 
 import Carousel from 'react-bootstrap/Carousel';
 
-import depo_1 from '../assets/depo_1.png';
-import depo_2 from '../assets/depo_2.png';
-import depo_3 from '../assets/depo_3.jpg';
-import depo_4 from '../assets/depo_4.jpg';
-
-import '../styles/scss/carousel.scss';
+const depo_1 = '/img/depo_1.png';
+const depo_2 = '/img/depo_2.png';
+const depo_3 = '/img/depo_3.jpg';
+const depo_4 = '/img/depo_4.jpg';
 
 export default function Carrousel() {
   return (

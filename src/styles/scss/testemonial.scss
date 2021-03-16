@@ -1,12 +1,12 @@
 .testemonial-wrapper {
   position: relative;
   height: 100%;
-  background: url('../../assets/mother_sunshine.jpg') no-repeat center center;
+  background: url('/img/mother_sunshine.jpg') no-repeat center center;
   background-size: cover;
   padding: 1rem auto;
 }
 
-.testemonial-overlay {  
+.testemonial-overlay {
   position: absolute;
   background: linear-gradient(135deg, #042044 0%, #442744 100%) no-repeat center center;
   background-size: cover;

@@ -1,7 +1,5 @@
 import React from 'react';
 
-import '../styles/scss/iframe.scss';
-
 export default function Iframe() {
   return (
     <div className="iframe-container">

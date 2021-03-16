@@ -4,8 +4,8 @@ import '../styles/scss/linkbio.scss';
 
 import Footer from '../components/Footer';
 
-import whiteLogo from '../assets/logo_white.svg';
-import LarissaPerfil1 from '../assets/larissa_perfil1.png';
+const whiteLogo = '/svg/logo_white.svg';
+const LarissaPerfil1 = '/img/larissa_perfil1.png';
 
 export default function LinkBio() {
   return (

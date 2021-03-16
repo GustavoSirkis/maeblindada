@@ -2,8 +2,6 @@ import React from 'react';
 
 import CallToAction from './CallToAction';
 
-import '../styles/scss/testemonial.scss';
-
 export default function Testemonial() {
   return (
     <main className="testemonial-wrapper">

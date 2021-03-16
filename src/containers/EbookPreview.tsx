@@ -1,20 +1,18 @@
 import React from 'react';
 
-import WhatsApp from '../components/Whatsapp';
-import EbookHead from '../components/EbookHead';
+import WhatsApp from '../components/WhatsApp';
+import EbookHead2 from '../components/EbookHead2';
 import Heading from '../components/Heading';
 import EbookSection from '../components/EbookSection';
 import About from '../components/About';
 import Testemonial from '../components/Testemonial';
 import Footer from '../components/Footer';
-import AceptCookies from '../components/CookiesAcept';
 
-export default function Ebook() {
+export default function EbookPreview() {
   return (
-    <main className="ebook-container">
-      <AceptCookies />
+    <main className="ebookpreview-container">
       <WhatsApp />
-      <EbookHead />
+      <EbookHead2 />
       <Heading />
       <EbookSection />
       <About />

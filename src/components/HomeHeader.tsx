@@ -2,8 +2,7 @@ import React from 'react';
 
 import SignUpForm from './SignupForm';
 
-import '../styles/scss/homeheader.scss';
-import logoWhite from '../assets/logo_white.svg';
+const logoWhite = '/svg/logo_white.svg';
 
 export default function HomeHeader() {
   return (
