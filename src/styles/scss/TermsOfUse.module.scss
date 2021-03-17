@@ -1,72 +1,72 @@
-.terms-main {
+.termsMain {
   background-color: var(--orange);
   padding-bottom: 1rem;
-  
+
 }
 
-.terms-header {
+.termsHeader {
   max-width: 95%;
   display: flex;
   flex-direction: column;
   padding: 1rem;
 }
-.terms-header img {
+.termsHeader img {
   width: 50%;
   margin: auto;
   padding: 1rem;
 }
 
-.terms-header h1 {
-  
+.termsHeader h1 {
+
   color: var(--gray-line);
   margin-bottom: 0;
 }
 
-.terms-text {
+.termsText {
   width: 80%;
   margin: 0 auto;
   text-align: left;
 }
 
-.terms-text p {
+.termsText p {
   color: var(--blue-dark);
   font-size: .9rem;
   text-indent: 2rem;
   text-align: justify;
 }
 
-.terms-text h2 {
+.termsText h2 {
   margin-top: .5rem;
   color: var(--gray-line);
   text-align: center;
   font-size: 1.5rem;
 }
 
-.terms-text h3 {
+.termsText h3 {
   margin: .6rem 0;
   color: var(--red-light);
   font-size: 1.2rem;
   text-align: left;
 }
 
-.terms-text ol li {
+.termsText ol li {
   color: var(--red-light);
   list-style-type: upper-latin;
   list-style-position: inside;
 }
 
-.terms-text ol {
+.termsText ol {
   border-radius: 8px;
   background: var(--gray-line);
   padding: 1rem;
 }
 
-.terms-text li {
+.termsText li {
   font-size: .9rem;
   margin-bottom: .5rem;
 }
 
-.terms-footer {
+.termsFooter {
   height: 15vh;
   background-color: var(--text);
   color: var(--background);

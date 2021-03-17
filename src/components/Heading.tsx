@@ -1,10 +1,12 @@
 import React from 'react';
 
+import styles from '../styles/scss/Heading.module.scss';
+
 const motherBaby = '/img/maebaby.jpg';
 
 export default function Heading() {
   return (
-    <main className="heading-container">
+    <main className={styles.headingContainer}>
       <h1>
         Primeiramente gostaria de parabenizar você que está em busca de{' '}
         <mark className="mark3">informações de qualidade</mark> para seu filho e

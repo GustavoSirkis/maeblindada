@@ -1,3 +1,9 @@
+// Bootstrap Functions
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Bootstrap Core
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
 @media(max-width: 1080px) {
   html {
     font-size: 93.75%;
@@ -127,7 +133,7 @@ p {
   color: var(--white);
   background-color: var(--red-light);
   padding: .08rem .15rem .08rem .15rem;
-  
+
 }
 
 .footer-godaddy {

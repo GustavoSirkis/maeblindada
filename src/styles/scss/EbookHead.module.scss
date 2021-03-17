@@ -1,4 +1,4 @@
-.ebookhead-container {
+.ebookheadContainer {
   position: relative;
   height: 100%;
   background: url('/img/bg_img.png') no-repeat center center;
@@ -6,7 +6,7 @@
   padding-bottom: 1rem;
 }
 
-.ebookhead-overlay {
+.ebookheadOverlay {
 position: absolute;
 background: linear-gradient( 180deg, #0e809fec 0%, #029CD2DB 80%) no-repeat center center;
 background-size: cover;
@@ -17,7 +17,7 @@ left: 0;
 opacity: 0.8;
 }
 
-.ebookhead-wrapper {
+.ebookheadWrapper {
   position: relative;
   top: 0;
   left:0;
@@ -27,12 +27,12 @@ opacity: 0.8;
   padding-bottom: 2rem;
 }
 
-.ebookhead-wrapper img {
+.ebookheadWrapper img {
   max-width: 10rem;
   margin: 2rem auto 2rem auto;
 }
 
 
-.ebookhead-section {
+.ebookheadSection {
   position: relative;
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styles from '../styles/scss/Carousel.module.scss';
+
 import Carousel from 'react-bootstrap/Carousel';
 
 const depo_1 = '/img/depo_1.png';

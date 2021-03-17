@@ -1,4 +1,4 @@
-.homeheader-wrapper {
+.homeheaderWrapper {
   position: relative;
   height: 100%;
   background: url('/img/family_pc.png') no-repeat center center;
@@ -6,7 +6,7 @@
   padding-bottom: 1rem;
 }
 
-.homeheader-overlay {
+.homeheaderOverlay {
   position: absolute;
   background: linear-gradient(135deg, #042044 0%, #442744 100%) no-repeat center center;
   background-size: cover;
@@ -17,7 +17,7 @@
   opacity: 0.8;
 }
 
-.homeheader-container  {
+.homeheaderContainer  {
   position: relative;
   top: 0;
   left:0;
@@ -26,26 +26,26 @@
   width: 90%;
 }
 
-.homeheader-container img {
+.homeheaderContainer img {
   max-width: 10rem;
   margin: 2rem auto 2rem auto;
 }
 
-.homeheader-section {
+.homeheaderCection {
   width: 90%;
   position: relative;
   margin: 0 auto;
   text-align: center;
 }
 
-.homeheader-section h3 {
+.homeheaderSection h3 {
   color: var(--orange);
   text-shadow: 2px 2px 3px #41414d67;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
-.homeheader-btn {
+.homeheaderBtn {
   background-color: transparent;
   border: .2rem solid var(--white);
   width: 50%;
@@ -57,7 +57,7 @@
   font-weight: 700;
 }
 
-.homeheader-btn:hover{
+.homeheaderBtn:hover{
   border: none;
   background-color: var(--blue-dark);
   color: var(--gray-line);
@@ -65,6 +65,6 @@
   font-size: 1.1rem;
 }
 
-.homeheader-btn i {
+.homeheaderBtn i {
   margin-left: 1rem;
 }

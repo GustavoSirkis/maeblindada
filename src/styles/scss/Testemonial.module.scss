@@ -1,4 +1,4 @@
-.testemonial-wrapper {
+.testemonialWrapper {
   position: relative;
   height: 100%;
   background: url('/img/mother_sunshine.jpg') no-repeat center center;
@@ -6,7 +6,7 @@
   padding: 1rem auto;
 }
 
-.testemonial-overlay {
+.testemonialOverlay {
   position: absolute;
   background: linear-gradient(135deg, #042044 0%, #442744 100%) no-repeat center center;
   background-size: cover;
@@ -17,24 +17,24 @@
   opacity: 0.8;
 }
 
-.testemonial-container {
+.testemonialContainer {
   position: relative;
 
 }
 
-.testemonial-cta {
+.testemonialCta {
   padding-top: 2rem;
 }
 
 
-.carousel-wrapper {
+.carouselWrapper {
   position: relative;
   padding: 2rem 0;
   margin: 0 auto;
 
 }
 
-.carousel-content {
+.carouselContent {
   max-width: 50%;
   border-radius: 1.5rem;
   margin: 1rem auto 1rem auto;

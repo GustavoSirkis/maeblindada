@@ -1,9 +1,8 @@
 import React from 'react';
 
-export default class SingUpForm extends React.Component<
-  {},
-  { email: string; name: string; phone: string }
-> {
+import styles from '../styles/scss/SignUpForm.module.scss';
+
+export default class SingUpForm extends React.Component {
   constructor(props: any) {
     super(props);
     this.state = {
@@ -34,7 +33,7 @@ export default class SingUpForm extends React.Component<
   // }
   render() {
     return (
-      <main id="mc_embed_signup" className="form-container">
+      <main id="mc_embed_signup" className={styles.formContainer}>
         <form
           action={process.env.MAILCHIMP_URL}
           method="post"

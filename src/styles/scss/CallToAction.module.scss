@@ -1,4 +1,4 @@
-.cta-container {
+.ctaContainer {
   position: relative;
   width: 90%;
   background-color: var(--white);
@@ -9,16 +9,16 @@
 }
 
 
-.cta-content {
+.ctaContent {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justifyContent: center;
   text-align: center;
 }
 
-.cta-content p {
+.ctaContent p {
   margin-top: 1rem;
   font-size: 1.2rem;
   font-weight: 400;
@@ -26,28 +26,28 @@
 }
 
 
-.cta-btn {
+.ctaBtn {
   background: var(--red-light);
   border-radius: 8px;
   padding: .5rem;
   font-weight: 600;
   box-shadow: 2px 2px 5px #4c4c6341;
 }
-.cta-btn:hover {
+.ctaBtn:hover {
   background: var(--red);
 }
 
-.cta-img {
+.ctaImg {
   width: 90%;
   padding-left: 2rem;
   margin-top: 1rem;
 }
 
 @media screen and (min-width: 768px) {
-  .cta-container {
+  .ctaContainer {
     max-width: 50%;
   }
-  .cta-img {
+  .ctaImg {
     padding-left: 3rem;
   }
 }

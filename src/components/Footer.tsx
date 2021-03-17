@@ -1,9 +1,11 @@
 import React from 'react';
 
+import styles from '../styles/scss/Footer.module.scss';
+
 export default function Footer() {
   return (
-    <div className="footer-container">
-      <section className="footer-list">
+    <div className={styles.footerContainer}>
+      <section className={styles.footerList}>
         <p>
           "Este Produto é destinado exclusivamente a profissionais da área da
           saúde.”
@@ -17,8 +19,8 @@ export default function Footer() {
           </li>
         </ul>
       </section>
-      <div className="copyRight">
-        &copy; {1900 + new Date().getFullYear()} , feito com amor
+      <div className={styles.copyRight}>
+        &copy; {new Date().getFullYear()} , feito com amor
         <i className="" /> por{' '}
         <a href="/" className="" target="_blank">
           Mãe Blindada

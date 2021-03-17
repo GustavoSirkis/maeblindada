@@ -1,18 +1,19 @@
 import React from 'react';
+import styles from '../styles/scss/About.module.scss';
 
 const larissaLucena = '/img/larissa_perfil.jpg';
 
 export default function About() {
   return (
-    <div className="about-container">
+    <div className={styles.aboutContainer}>
       <h1>Dr.ª LARISSA LUCENA</h1>
       <h6>
         Médica Pediatra
         <br /> CRM-GO 22804
       </h6>
-      <main className="about-main">
+      <main className="aboutMain">
         <img src={larissaLucena} alt="Fotografia Drª Larissa em perfil" />
-        <section className="about-text">
+        <section className={styles.aboutText}>
           <p>
             "Meu desejo é deixar sua maternidade mais leve, te passar
             conhecimento com clareza e te blindar de informações erradas que
@@ -26,7 +27,7 @@ export default function About() {
             <a href="/">@maeblindada</a> e no meu TikTok{' '}
             <a href="/">@maeblindada1</a>. Grande abraço!"
           </p>
-          <p className="signature">Dr.ª Larissa Lucena</p>
+          <p className={styles.signature}>Dr.ª Larissa Lucena</p>
         </section>
       </main>
     </div>

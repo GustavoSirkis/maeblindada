@@ -1,40 +1,40 @@
-.heading-container {
+.headingContainer {
   width: 90%;
   margin: 0 auto;
   padding: 2rem 0;
   text-align: center;
 }
 
-.heading-container h1 {
+.headingContainer h1 {
   color: var(--blue-dark);
 }
 
-.heading-container h2 {
+.headingContainer h2 {
   color: var(--red-light);
   width: 90%;
   font-size:1.2rem;
 }
 
-.heading-content {
+.headingContent {
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
 }
 
-.heading-content h1 {
+.headingContent h1 {
   font-size: 1.2rem;
   text-align: center;
   text-indent: 0;
   margin-bottom: 1.5rem ;
 }
 
-.heading-content img {
+.headingContent img {
   max-width: 80%;
   margin: 0 auto;
   padding: 1rem;
 }
 
-.heading-card {
+.headingCard {
   background-color: var(--white);
   color: var(--blue-dark);
   padding: 1.5rem 1rem 1.5rem 1rem;
@@ -45,15 +45,15 @@
 }
 
 @media screen and (min-width: 768px) {
-  .heading-content {
+  .headingContent {
     flex-direction: row;
   }
-  .heading-content img {
+  .headingContent img {
     max-width: 40%;
     margin: 0 auto;
   }
 
-  .heading-card {
+  .headingCard {
     max-width: 50%;
     margin: 0 auto;
   }

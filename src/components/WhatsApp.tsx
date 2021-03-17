@@ -1,5 +1,7 @@
 import React from 'react';
 
+import styles from '../styles/scss/WhatsApp.module.scss';
+
 export default function WhatsApp() {
   return (
     <div className="whatsapp-container">
